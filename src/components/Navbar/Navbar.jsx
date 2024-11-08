@@ -3,7 +3,7 @@ import Logo from "../../assets/logo.png";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
-
+import DarkMode from "./DarkMode";
 const Navbar = () => {
   return (
     <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
@@ -41,9 +41,9 @@ const Navbar = () => {
             <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
           </button>
           {/* Darkmode Switch */}
-          {/* <div>
+          <div>
             <DarkMode />
-          </div> */}
+          </div>
         </div>
       </div>
       {/* lower navbar */}
