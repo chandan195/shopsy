@@ -1,7 +1,9 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero"
+import Hero from "./components/Hero/Hero";
 import Product from "./components/Products/Product";
+
+import TopProduct from "./components/TopProducts/TopProduct";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const App = () => {
@@ -17,8 +19,9 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero/>
-      <Product/>
+      <Hero />
+      <Product />
+      <TopProduct />
     </div>
   );
 };
