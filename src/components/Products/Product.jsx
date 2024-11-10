@@ -82,7 +82,9 @@ const Product = () => {
                 <img
                   src={data.img}
                   alt=""
-                  className="h-[220px] w-[150px] object-cover rounded-md"
+                  className="h-[220px] w-[150px] object-cover rounded-md 
+                  hover:scale-110 duration-300"
+                  
                 />
                 <div>
                   <h3 className="font-semibold">{data.title}</h3>
@@ -97,7 +99,8 @@ const Product = () => {
           </div>
           {/* view all button */}
           <div className="flex justify-center">
-            <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
+            <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md 
+            hover:hover:scale-105 duration-300">
               View All Button
             </button>
           </div>
