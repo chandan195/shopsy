@@ -8,11 +8,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Banner from "./components/Banner/Banner";
 import Subscribe from "./components/Subscribe/Subscribe";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   useEffect(() => {
     AOS.init({
       offset: 100,
-      duration: 800,
+      duration: 500,
       easing: "ease-in-sine",
       delay: 100,
     });
@@ -26,6 +28,9 @@ const App = () => {
       <TopProduct />
       <Banner/>
       <Subscribe/>
+      <Product  />
+      <Testimonials />
+      <Footer/>
     </div>
   );
 };
